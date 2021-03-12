@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300,400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/fdceb48d72.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="" class="active">Home</a>
+            <a href="">Über uns</a>
+            <a href="">Produkte</a>
+            <a href="">Unser Team</a>
+            <a href="">Kontakt</a>
+        </nav>
+    </header>
+    <div class="banner">
+
+        <div class="content">
+
+            <div>
+                <h4>HALLO!</h4>
+                <h1>Ich bin ein Yusy</h1>
+                <h3>Nasenexpert und Nasenconnaisseur</h3>
+                <div class="social_media_icons">
+                    <a class="fab fa-instagram "></a>
+                    <a class="fab fa-twitter"></a>
+                    <a class="fab fa-tiktok"></a>
+                    <a class="fab fa-discord"></a>
+                </div>
+            </div>
+
+            <a href="#" class="button">Mein Knabbern ansehen</a>
+        </div>
+
+
+        <div class="content">
+            <img src="/images/WhatsApp Image 2021-01-13 at 01.36.20.jpeg" alt="">
+        </div>
+
+
+
+    </div>
+    <div class="statistics-area">
+
+        <div class="statistic">
+            <h3>20K</h3>
+            <p>Nasen geknabbert</p>
+
+        </div>
+        <div class="statistic">
+            <h3>40k</h3>
+            <p>Male gebissen</p>
+        </div>
+        <div class="statistic">
+            <h3>100k</h3>
+            <p>Glückliche Kunden</p>
+        </div>
+
+    </div>
+    <div class="about-area">
+        <h3>Über Yusy</h3>
+        <h2>Nasenexperte und Knabberyusy</h2>
+        <p>Yusy hat schon fast 20 Jahre Erfahrung beim Sammeln und Knabbern von Nasen. </p>
+        <p>Er kann dutlich erkennen wie gut eine Nase zum Knabbern ist und ob wie man sie am Besten knabbern kann.</p>
+        <p>Er hat bis jetzt die meisten Nasen genabbert bist jetzt und ist sehr bekannt in der Knabbernasen Community
+            weltweit. </p>
+
+    </div>
+
+    <div class="services-area">
+        <h3>Unsere services für dich</h3>
+        <div><h1>Was wir anbieten</h1></div>
+        <div class="products-container">
+            <div class="product-card">
+                <img class="product-card_image" src="/images/AngryBobo.jpg" alt="">
+                <h2 class="product-card_itemName">Nasen</h2>
+                <h3 class="product-card_quote">Sehr gute Nasen</h3>
+                <p class="product-card_description">Diese Nasen wurden sehr gut geknabbert</p>
+                <a href="" class="product-card_button">MEHR ERFAHREN</a>
+            </div>
+            <div class="product-card">
+                <img class="product-card_image" src="/images/AngryBobo.jpg" alt="">
+                <h2 class="product-card_itemName">Bobos</h2>
+                <h3 class="product-card_quote">Exzelente Bobos fürs Nasenknabbern</h3>
+                <p class="product-card_description">Diese Bobos sind ganz frisch</p>
+                <a href="" class="product-card_button">MEHR ERFAHREN</a>
+
+            </div>
+            <div class="product-card">
+                <img class="product-card_image" src="/images/AngryBobo.jpg" alt="">
+                <h2 class="product-card_itemName">Nasen</h2>
+                <h3 class="product-card_quote">Sehr gute Nasen</h3>
+                <p class="product-card_description">Diese Nasen wurden sehr gut geknabbert</p>
+                <a href="" class="product-card_button">Mehr ERFAHREN</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-area">
+        <h1>Unser Team</h1>
+        <div>
+            <h2>Yusy Manuelito</h2>
+        </div>
+    </div>
+
+
+    </div>
+    <script>
+        const productCards= document.querySelectorAll(".product-card");
+        productCards.forEach(function(card){
+            card.addEventListener("mouseover", function () {
+                card.classList.add("flip-scale-up-hor")
+            });
+        });
+    </script>
+</body>
+
+</html>
